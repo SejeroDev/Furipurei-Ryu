@@ -1,6 +1,6 @@
 The only updated languages ​​are English and Spanish.
 
-As of now, the **Furipurei** repository serves as a continuation of the original Ryujinx project. For the time being, this project won't be accepting any new *major* changes until further information arises. We have reconstructed the essential build infrastructure, and you can download nightly binaries for Windows, Linux, and macOS from the latest release.
+As of now, the **Furipurei Ryu Edition** repository serves as a continuation of the original Ryujinx project. For the time being, this project won't be accepting any new *major* changes until further information arises. We have reconstructed the essential build infrastructure, and you can download nightly binaries for Windows, Linux, and macOS from the latest release.
 
 > **Note:**  
 > This project is not affiliated with the **original** Ryujinx project, or Nintendo in any way.
@@ -13,7 +13,7 @@ As of now, the **Furipurei** repository serves as a continuation of the original
 
 ### Compatibility
 
-As of October 2024, Furipurei has been tested on over 4,300 titles; more than 4,100 boot past menus and into gameplay, with roughly 3,550 of those considered playable.
+As of October 2024, Furipurei Ryu Edition has been tested on over 4,300 titles; more than 4,100 boot past menus and into gameplay, with roughly 3,550 of those considered playable.
 
 Anyone is free to submit a new game test or update an existing entry by following the test submission guidelines.
 
@@ -27,7 +27,7 @@ These builds are automatically compiled from each commit on the main branch. Whi
 
 ### Building
 
-If you wish to build Furipurei yourself, follow these steps:
+If you wish to build Furipurei Ryu Edition yourself, follow these steps:
 
 1. **Install the .NET 8.0 (or higher) SDK**:  
    Ensure your SDK version matches or exceeds the one specified in the `global.json` file.
@@ -46,23 +46,23 @@ If you wish to build Furipurei yourself, follow these steps:
   Supports audio output (but not input). Uses OpenAL and SDL2, with fallback support via libsoundio.
 
 - **CPU**:  
-  Furipurei uses a CPU emulator that supports ARMv8, ARMv7 (partial), and legacy instructions. Performance is optimized using different memory management options, including host-mapped modes for faster execution.
+  Furipurei Ryu Edition uses a CPU emulator that supports ARMv8, ARMv7 (partial), and legacy instructions. Performance is optimized using different memory management options, including host-mapped modes for faster execution.
 
 - **GPU**:  
-  The GPU emulator simulates the Switch's Maxwell GPU with support for OpenGL, Vulkan, and Metal. Furipurei offers various graphics enhancements, such as resolution scaling, shader caching, and anti-aliasing.
+  The GPU emulator simulates the Switch's Maxwell GPU with support for OpenGL, Vulkan, and Metal. Furipurei Ryu Edition offers various graphics enhancements, such as resolution scaling, shader caching, and anti-aliasing.
 
 - **Input**:  
   Full support for keyboard, mouse, JoyCons, and most game controllers, with motion control support through external tools.
 
 - **DLC & Mods**:  
-  Furipurei can manage DLC, mods, and cheats through its GUI.
+  Furipurei Ryu Edition can manage DLC, mods, and cheats through its GUI.
 
 - **Configuration**:  
   The emulator offers flexible configuration options accessible via both the GUI and a `Config.json` file.
 
 ### License
 
-Furipurei is licensed under the terms of the MIT license. This project also incorporates code from third-party sources, which are documented in the license files.
+Furipurei Ryu Edition is licensed under the terms of the MIT license. This project also incorporates code from third-party sources, which are documented in the license files.
 
 ### Credits
 
