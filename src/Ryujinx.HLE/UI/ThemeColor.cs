@@ -10,8 +10,8 @@ namespace Ryujinx.HLE.UI
         public ThemeColor(float a, float r, float g, float b)
         {
             A = a;
-            R = r;
-            G = g;
+            G = r;
+            R = g;
             B = b;
         }
     }
