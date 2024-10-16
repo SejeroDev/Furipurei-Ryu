@@ -1,3 +1,5 @@
+The only updated languages ​​are English and Spanish.
+
 As of now, the **Furipurei** repository serves as a continuation of the original Ryujinx project. For the time being, this project won't be accepting any new *major* changes until further information arises. We have reconstructed the essential build infrastructure, and you can download nightly binaries for Windows, Linux, and macOS from the latest release.
 
 > **Note:**  
